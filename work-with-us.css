@@ -798,13 +798,6 @@
   display: inline-block;
 }
  
-.work-with-us-thq-container-elm {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-}
- 
 .work-with-us-thq-footer-elm {
   width: 100%;
   display: flex;

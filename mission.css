@@ -250,6 +250,11 @@
   text-decoration: none;
 }
  
+.hero8-thq-hero-image-elm {
+  width: 50%;
+  height: auto;
+}
+ 
 .mission-fragment18 {
   display: contents;
 }
@@ -280,6 +285,11 @@
  
 .mission-text17 {
   display: inline-block;
+}
+ 
+.hero8root-class-name {
+  width: 100%;
+  height: 100%;
 }
  
 @media(max-width: 479px) {

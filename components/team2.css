@@ -1,0 +1,360 @@
+.team2-thq-max-width-elm {
+  gap: var(--dl-layout-space-fiveunits);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team2-thq-section-title-elm {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team2-thq-content-elm1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team2-thq-text-elm10 {
+  align-self: flex-start;
+}
+ 
+.team2-thq-content-elm2 {
+  gap: 96px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team2-thq-content-elm3 {
+  gap: var(--dl-layout-space-fourunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.team2-thq-row-elm {
+  gap: 48px;
+  display: flex;
+  max-width: 1200px;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.team2-thq-card-elm1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team2-thq-placeholder-image-elm1 {
+  width: 313px;
+  height: 313px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.team2-image1 {
+  width: 100%;
+  height: 100%;
+  min-width: 333px;
+  min-height: 333px;
+  object-fit: cover;
+}
+ 
+.team2-thq-content-elm4 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team2-thq-title-elm1 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team2-thq-text-elm11 {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.team2-thq-text-elm12 {
+  align-self: flex-start;
+}
+ 
+.team2-thq-text-elm13 {
+  align-self: flex-start;
+}
+ 
+.team2-thq-card-elm2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team2-thq-placeholder-image-elm2 {
+  width: 314px;
+  height: 314px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.team2-image2 {
+  width: 100%;
+  height: 100%;
+  min-width: 333px;
+  min-height: 333px;
+  object-fit: cover;
+}
+ 
+.team2-thq-content-elm5 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team2-thq-title-elm2 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team2-thq-text-elm14 {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.team2-thq-text-elm15 {
+  align-self: flex-start;
+}
+ 
+.team2-thq-text-elm16 {
+  align-self: flex-start;
+}
+ 
+.team2-thq-card-elm3 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team2-thq-placeholder-image-elm3 {
+  width: 314px;
+  height: 314px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+ 
+.team2-image3 {
+  width: 100%;
+  height: 100%;
+  min-width: 332px;
+  min-height: 333px;
+  object-fit: cover;
+}
+ 
+.team2-thq-content-elm6 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team2-thq-title-elm3 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team2-thq-text-elm17 {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.team2-thq-text-elm18 {
+  align-self: flex-start;
+}
+ 
+.team2-thq-text-elm19 {
+  align-self: flex-start;
+}
+ 
+.team2-fragment10 {
+  display: contents;
+}
+ 
+.team2-text10 {
+  display: inline-block;
+}
+ 
+.team2-fragment11 {
+  display: contents;
+}
+ 
+.team2-text11 {
+  display: inline-block;
+}
+ 
+.team2-fragment12 {
+  display: contents;
+}
+ 
+.team2-text12 {
+  display: inline-block;
+}
+ 
+.team2-fragment13 {
+  display: contents;
+}
+ 
+.team2-text13 {
+  display: inline-block;
+}
+ 
+.team2-fragment14 {
+  display: contents;
+}
+ 
+.team2-text14 {
+  display: inline-block;
+}
+ 
+.team2-fragment15 {
+  display: contents;
+}
+ 
+.team2-text15 {
+  display: inline-block;
+}
+ 
+.team2-fragment16 {
+  display: contents;
+}
+ 
+.team2-text16 {
+  display: inline-block;
+}
+ 
+.team2-fragment17 {
+  display: contents;
+}
+ 
+.team2-text17 {
+  display: inline-block;
+}
+ 
+.team2-fragment18 {
+  display: contents;
+}
+ 
+.team2-text18 {
+  display: inline-block;
+}
+ 
+.team2-fragment19 {
+  display: contents;
+}
+ 
+.team2-text19 {
+  display: inline-block;
+}
+ 
+.team2root-class-name {
+  padding-top: 20px;
+}
+ 
+@media(max-width: 991px) {
+  .team2-thq-row-elm {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .team2-thq-row-elm {
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .team2-thq-placeholder-image-elm1 {
+    width: 100%;
+    height: 442px;
+  }
+  .team2-image1 {
+    width: 100%;
+    height: 100%;
+    min-width: 333px;
+    min-height: 333px;
+    margin-left: 0px;
+  }
+  .team2-thq-placeholder-image-elm2 {
+    width: 100%;
+    height: 100%;
+  }
+  .team2-image2 {
+    width: 100%;
+    height: 100%;
+  }
+  .team2-thq-placeholder-image-elm3 {
+    width: 100%;
+    height: 100%;
+    min-width: 333px;
+    min-height: 333px;
+  }
+  .team2-image3 {
+    width: 100%;
+    height: 452px;
+  }
+}
