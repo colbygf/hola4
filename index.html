@@ -1,158 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Dream Motion Data - Home</title>
-  <meta property="og:title" content="Dream Motion Data" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="utf-8" />
+  <head>
+    <title>Dream Motion Data</title>
+    <meta property="og:title" content="hola4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="./index.css" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
 
-  <style>
-    html { scroll-behavior: smooth; }
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
 
-    /* Fix full width banner issues */
-    .banner11-container1 {
-      width: 100%;
-    }
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
 
-    .banner11-thq-max-width-elm {
-      max-width: 100% !important;
-    }
-
-    /* Make button link behave like button */
-    .thq-button-filled {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      cursor: pointer;
-    }
-  </style>
-</head>
-
-<body>
-
-<div class="home-container1">
-
-  <!-- NAVBAR -->
-  <header class="navbar2-container navbar2root-class-name2">
-
-    <header class="navbar2-thq-navbar-interactive-elm">
-
-      <img
-        alt="Dream Motion"
-        src="public/gemini_generated_image_656hyj656hyj656h-removebg-preview-2-removebg-preview-1500h.png"
-        class="navbar2-thq-image1-elm"
-      />
-
-      <!-- DESKTOP NAV -->
-      <div class="navbar2-thq-desktop-menu-elm">
-        <nav class="navbar2-thq-links-elm1">
-          <a href="index.html" class="thq-link thq-body-small">Home</a>
-          <a href="mission.html" class="thq-link thq-body-small">Mission</a>
-          <a href="services.html" class="thq-link thq-body-small">Services</a>
-          <a href="work-with-us.html" class="thq-link thq-body-small">Work With Us</a>
-        </nav>
-      </div>
-
-      <!-- BURGER MENU ICON -->
-      <div class="navbar2-thq-burger-menu-elm">
-        <svg viewBox="0 0 1024 1024" class="navbar2-icon10">
-          <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-        </svg>
-      </div>
-
-      <!-- MOBILE NAV -->
-      <div class="navbar2-thq-mobile-menu-elm">
-
-        <div class="navbar2-thq-nav-elm">
-
-          <nav class="navbar2-thq-links-elm2">
-            <a href="index.html" class="thq-link thq-body-small">Home</a>
-            <a href="mission.html" class="thq-link thq-body-small">Mission</a>
-            <a href="services.html" class="thq-link thq-body-small">Services</a>
-            <a href="work-with-us.html" class="thq-link thq-body-small">Work With Us</a>
-            <a href="contact.html" class="thq-link thq-body-small">Contact Us</a>
-          </nav>
-
+      <div class="home-container1">
+        <navbar2-wrapper
+          class="navbar2-wrapper"
+          rootclassname="navbar2undefined"
+        >
+          <!--Navbar2 component-->
+          <header class="navbar2-container navbar2root-class-name2">
+            <header
+              data-thq="thq-navbar"
+              class="navbar2-thq-navbar-interactive-elm"
+            >
+              <img
+                alt="Dream Motion"
+                src="public/gemini_generated_image_656hyj656hyj656h-removebg-preview-2-removebg-preview-1500h.png"
+                class="navbar2-thq-image1-elm"
+              />
+              <span>
+                <fragment class="home-fragment10">
+                  <span class="home-text10">&nbsp;</span>
+                </fragment>
+              </span>
+              <div
+                data-thq="thq-navbar-nav"
+                class="navbar2-thq-desktop-menu-elm"
+              >
+              <nav class="navbar2-thq-links-elm1">
+                <a href="index.html" class="thq-link thq-body-small">Home</a>
+                <a href="mission.html" class="thq-link thq-body-small">Mission</a>
+                <a href="services.html" class="thq-link thq-body-small">Services</a>
+                <a href="work-with-us.html" class="thq-link thq-body-small">Work With Us</a>
+              </nav>
+              </div>
+              <div
+                data-thq="thq-burger-menu"
+                class="navbar2-thq-burger-menu-elm"
+              >
+                <svg viewBox="0 0 1024 1024" class="navbar2-icon10">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div
+                data-thq="thq-mobile-menu"
+                class="navbar2-thq-mobile-menu-elm"
+              >
+                <div class="navbar2-thq-nav-elm">
+                  <div class="navbar2-thq-top-elm">
+                    <img
+                      alt="Dream Motion"
+                      src="public/gemini_generated_image_656hyj656hyj656h-removebg-preview-2-removebg-preview-1500h.png"
+                      class="navbar2-thq-logo-elm"
+                    />
+                    <div
+                      data-thq="thq-close-menu"
+                      class="navbar2-thq-close-menu-elm"
+                    >
+                      <svg viewBox="0 0 1024 1024" class="navbar2-icon12">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="navbar2-thq-links-elm2">
+                    <a href="index.html" class="thq-link thq-body-small">Home</a>
+                    <a href="mission.html" class="thq-link thq-body-small">Mission</a>
+                    <a href="services.html" class="thq-link thq-body-small">Services</a>
+                    <a href="work-with-us.html" class="thq-link thq-body-small">Work With Us</a>
+                    <a href="contact.html" class="thq-link thq-body-small">Contact Us</a>
+                  </nav>
+                </div>
+                <div class="navbar2-thq-icon-group-elm">
+                  <svg
+                    viewBox="0 0 950.8571428571428 1024"
+                    class="thq-icon-x-small"
+                  >
+                    <path
+                      d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="thq-icon-x-small"
+                  >
+                    <path
+                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 602.2582857142856 1024"
+                    class="thq-icon-x-small"
+                  >
+                    <path
+                      d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+          </header>
+        </navbar2-wrapper>
+        <div class="home-navlink1">
+          <banner11-wrapper
+            class="home-component2"
+            rootclassname="banner11undefined"
+          >
+            <!--Banner11 component-->
+            <div
+              class="banner11-container1 thq-section-padding banner11root-class-name"
+            >
+              <div class="banner11-thq-max-width-elm thq-section-max-width">
+                <div class="banner11-container2">
+                  <h2 class="banner11-thq-title-elm thq-heading-2">
+                    <fragment class="home-fragment18">
+                      <span class="home-text18">
+                        Empowering Governments and Non-Profits with Data
+                        Solutions
+                      </span>
+                    </fragment>
+                  </h2>
+                  <h3 class="banner11-text1 thq-heading-3">
+                    <fragment class="home-fragment17">
+                      <span class="home-text17">
+                        At Dream Motion we know that data solutions for
+                        governments are different.
+                      </span>
+                    </fragment>
+                  </h3>
+                </div>
+                <button type="button" class="thq-button-filled">
+                  <a href="mission.html" class="thq-button-filled home-learn-more-btn">
+                    Learn More
+                  </a>
+                </button>
+              </div>
+            </div>
+          </banner11-wrapper>
+        <div class="home-thq-information-elm">
+          <div class="home-thq-purpose-elm">
+            <span class="home-thq-caption-elm1">What we do</span>
+            <span class="home-thq-description-elm">
+              We know first-hand the challenges that come with working with
+              governmental data. From red-tape, to quality issues, and dealing
+              with disparate systems, becoming data-driven is a challenge. We
+              know the ins and outs of dealing with governmental data. Let us
+              help you drive change in your community with the data you already
+              own.
+            </span>
+          </div>
+          <span class="home-thq-caption-elm2">WHO WE SERVE</span>
+          <div class="home-container2">
+            <div class="home-container3">
+              <img
+                alt="image"
+                src="public/screenshot_2025-02-06_at_1.49.30_pm-removebg-preview-200w.png"
+                class="home-image1"
+              />
+            </div>
+            <div class="home-container4">
+              <img
+                alt="image"
+                src="public/qpqlw22w_400x400-200h.jpg"
+                class="home-image2"
+              />
+            </div>
+            <div class="home-container5">
+              <img
+                alt="image"
+                src="public/site-icon-200h.png"
+                class="home-image3"
+              />
+            </div>
+            <span class="home-thq-caption-elm3">What we do</span>
+          </div>
         </div>
-
-      </div>
-
-    </header>
-  </header>
-
-
-  <!-- HERO / BANNER -->
-  <div class="home-navlink1">
-
-    <div class="banner11-container1 thq-section-padding">
-
-      <div class="banner11-thq-max-width-elm">
-
-        <div class="banner11-container2">
-
-          <h2 class="banner11-thq-title-elm thq-heading-2">
-            Empowering Governments and Non-Profits with Data Solutions
-          </h2>
-
-          <h3 class="banner11-text1 thq-heading-3">
-            At Dream Motion we know that data solutions for governments are different.
-          </h3>
-
+        <div class="home-thq-book-elm">
+          <div class="home-thq-content-elm1">
+            <div class="home-thq-left-elm">
+              <h2 class="home-thq-text-elm">
+                Questions? We'd love to hear from you
+              </h2>
+              <button class="home-button button">
+                <a href="work-with-us.html" class="home-navlink2">Questions?</a>
+              </button>
+            </div>
+            <img alt="image" src="public/message.svg" class="home-image4" />
+          </div>
         </div>
-
-        <!-- CORRECT BUTTON -->
-        <a href="mission.html" class="thq-button-filled home-learn-more-btn">
-          Learn More
-        </a>
-
+        <div class="home-thq-section-elm">
+          <div class="home-thq-about-us-elm">
+            <div class="home-thq-header-elm1">
+              <span class="home-thq-caption-elm4">About us</span>
+            </div>
+            <div class="home-thq-statistics-elm">
+              <div class="home-thq-statistic-elm1">
+                <span class="home-text19">700,000+</span>
+                <span class="home-text20">Constituents Served</span>
+              </div>
+              <div class="home-thq-statistic-elm2">
+                <span class="home-text21">20+</span>
+                <span class="home-text22">Years of Experts on Board</span>
+              </div>
+              <div class="home-thq-statistic-elm3">
+                <span class="home-text23">150+</span>
+                <span class="home-text24">Data Integrations Completed</span>
+              </div>
+              <div class="home-thq-statistic-elm4">
+                <span class="home-text25">150,000+</span>
+                <span class="home-text26">
+                  Equity Priority Constituents Served
+                </span>
+              </div>
+            </div>
+            <gallery2-wrapper
+              class="gallery2-wrapper"
+              rootclassname="gallery2undefined"
+            >
+              <!--Gallery2 component-->
+              <div
+                class="gallery2-thq-gallery3-elm thq-section-padding gallery2root-class-name"
+              >
+                <div class="gallery2-thq-max-width-elm thq-section-max-width">
+                  <div class="gallery2-thq-section-title-elm">
+                    <h2 class="gallery2-thq-text-elm1 thq-heading-2">
+                      <fragment class="home-fragment20">
+                        <span class="home-text28">Our Solutions in Action</span>
+                      </fragment>
+                    </h2>
+                    <span class="gallery2-thq-text-elm2 thq-body-large">
+                      <fragment class="home-fragment19">
+                        <span class="home-text27">
+                          Dream Motion's data solutions have helped governments
+                          and non-profits overcome challenges and achieve their
+                          goals throughout the Denver metro area and around the
+                          country.
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                  <div class="gallery2-thq-content-elm">
+                    <div class="gallery2-container1">
+                      <img
+                        alt="Government Data Integration"
+                        src="https://images.unsplash.com/photo-1607778417094-1fef13315e6e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczOTY2MzQ1OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=600"
+                        class="gallery2-thq-image1-elm thq-img-ratio-4-3"
+                      />
+                    </div>
+                    <div class="gallery2-container2">
+                      <img
+                        alt="Quality Assessment"
+                        src="public/dsc_0726-1024x683-600w.jpeg"
+                        class="gallery2-thq-image2-elm thq-img-ratio-4-3"
+                      />
+                    </div>
+                    <div class="gallery2-container3">
+                      <img
+                        alt="Efficient Resource Use"
+                        src="public/screen-shot-2024-01-18-at-9.51.49-am-1536x868-400h.png"
+                        class="gallery2-thq-image3-elm thq-img-ratio-4-3"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </gallery2-wrapper>
+          </div>
+        </div>
+        <footer class="home-thq-footer-elm">
+          <div class="home-thq-header-elm2">
+            <span class="home-thq-branding-elm">
+              Dream Motion Data Solutions
+            </span>
+          </div>
+          <div class="home-thq-content-elm2">
+            <div class="home-thq-contact-elm">
+              <span class="home-thq-email-elm">info@dreammotiondata.com</span>
+              <span class="home-thq-number-elm">+1 (720) 690-8337</span>
+            </div>
+            <div class="home-thq-links-row-elm">
+              <a href="mission.html" class="home-thq-link-elm1">Mission</a>
+              <a href="#Team2" class="home-thq-link-elm2">Team</a>
+              <a href="#Features1" class="home-thq-link-elm3">Services</a>
+              <a href="work-with-us.html" class="home-thq-link-elm4">
+                Work With Us
+              </a>
+            </div>
+          </div>
+        </footer>
       </div>
+      <link rel="canonical" href="https://dream-motion-data.teleporthq.app/" />
     </div>
-  </div>
-
-
-  <!-- CONTENT SECTION -->
-  <div class="home-thq-information-elm">
-
-    <div class="home-thq-purpose-elm">
-      <span class="home-thq-caption-elm1">What we do</span>
-      <span class="home-thq-description-elm">
-        We know first-hand the challenges that come with working with governmental data...
-      </span>
-    </div>
-
-  </div>
-
-
-  <!-- FOOTER -->
-  <footer class="home-thq-footer-elm">
-
-    <span class="home-thq-branding-elm">
-      Dream Motion Data Solutions
-    </span>
-
-    <div class="home-thq-content-elm2">
-
-      <div class="home-thq-contact-elm">
-        <span>info@dreammotiondata.com</span>
-        <span>+1 (720) 690-8337</span>
-      </div>
-
-      <div class="home-thq-links-row-elm">
-        <a href="mission.html">Mission</a>
-        <a href="work-with-us.html">Work With Us</a>
-      </div>
-
-    </div>
-
-  </footer>
-
-</div>
-
-<script defer src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-
-</body>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
 </html>
