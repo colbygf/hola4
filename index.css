@@ -201,53 +201,64 @@
   }
 }
 
-.banner11-container1 {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-}
-
 .banner11-wrapper {
   display: contents;
 }
- 
+
 .banner11-container1 {
-  gap: var(--dl-layout-space-unit);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
   display: flex;
   position: relative;
   align-items: center;
+  justify-content: center;
+  gap: var(--dl-layout-space-unit);
+
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%),
+    url('https://images.pexels.com/photos/30547577/pexels-photo-30547577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
   background-size: cover;
-  background-image: url('https://images.pexels.com/photos/30547577/pexels-photo-30547577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
   background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 60px 20px;
+  box-sizing: border-box;
 }
- 
+
 .banner11-thq-max-width-elm {
-  gap: var(--dl-layout-space-oneandhalfunits);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--dl-layout-space-oneandhalfunits);
+
   z-index: 2;
 }
 
-.banner11-container1 {
-  background-repeat: no-repeat;
-}
- 
 .banner11-container2 {
-  gap: var(--dl-layout-space-halfunit);
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  gap: var(--dl-layout-space-halfunit);
 }
- 
-.banner11-thq-title-elm {
-  text-align: center;
-}
- 
+
+.banner11-thq-title-elm,
 .banner11-text1 {
   text-align: center;
+}
+
+.home-fragment16,
+.home-fragment17,
+.home-fragment18 {
+  display: contents;
+}
+
+.home-text16,
+.home-text17,
+.home-text18 {
+  display: inline-block;
 }
  
 .home-fragment16 {
@@ -272,10 +283,6 @@
  
 .home-text18 {
   display: inline-block;
-}
- 
-.banner11root-class-name {
-  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%),url('https://images.pexels.com/photos/30547577/pexels-photo-30547577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
 }
 
 .gallery2-wrapper {
