@@ -1103,4 +1103,8 @@
     min-width: 100%;
     min-height: 100%;
   }
+  .banner11-container1 {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
 }
