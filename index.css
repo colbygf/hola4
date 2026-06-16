@@ -201,6 +201,11 @@
   }
 }
 
+.banner11-container1 {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
 .banner11-wrapper {
   display: contents;
 }
@@ -220,6 +225,14 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.banner11-container1 {
+  background-repeat: no-repeat;
 }
  
 .banner11-container2 {
@@ -1102,9 +1115,5 @@
     height: 100%;
     min-width: 100%;
     min-height: 100%;
-  }
-  .banner11-container1 {
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
   }
 }
